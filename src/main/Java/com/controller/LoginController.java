@@ -21,7 +21,7 @@ public class LoginController {
         String name = request.getParameter("username");
         String pwd = request.getParameter("password");
         logger.info("{},login ...;this pwd is {}",name,pwd);
-        return new ModelAndView("index1");
+        return new ModelAndView("index");
     }
 
 }
