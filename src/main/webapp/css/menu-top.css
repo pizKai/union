@@ -1,0 +1,61 @@
+.navbar-top-menu {
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background:rgba(92,158,209,1);
+    color: #ecf0f1;
+}
+.navbar-top-menu ul.navbar-nav > li > a {
+    color: #ecf0f1;
+}
+.navbar-top-menu .menu-buttons{
+    position: absolute;
+    right: 0;
+}
+/*.navbar-top-menu .menu-buttons .control{*/
+    /*display:none;*/
+/*}*/
+.navbar-top-menu .log-msg{
+    float:left;
+    display: table;
+    width:200px;
+    color: #ecf0f1;
+    background:rgba(53,124,165,1);
+}
+.navbar-top-menu ul.log-msg > li > a{
+    text-align: center;
+}
+
+.navbar-top-menu ul.navbar-nav > li > a:hover,
+.navbar-top-menu ul.navbar-nav > li > a:active {
+    background:rgba(53,124,165,1);
+}
+
+.navbar-top-menu .menu-buttons .left {
+    left: 0;
+}
+
+
+
+
+@media(max-width: 768px){
+    .navbar-top-menu .log-msg{
+        text-align: center;
+        width:768px;
+        padding-left:100px;
+    }
+    .navbar-top-menu ul.menu-buttons{
+        position: static;
+        right: auto;
+        padding-left:10px;
+    }
+    .navbar-top-menu ul.menu-buttons > li > a{
+         float:left;
+     }
+    /*.navbar-top-menu .menu-buttons .control{*/
+        /*display:inline;*/
+    /*}*/
+    /*.navbar-top-menu ul.menu-control li.control{*/
+        /*display:none;*/
+    /*}*/
+}
